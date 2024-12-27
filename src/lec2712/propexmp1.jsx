@@ -10,17 +10,13 @@ class PropExample extends React.Component {
   };
   constructor() {
     super();
-    setTimeout(
-      () => {
-        this.setState({
-          disabled: false,
-          text: "Hello World!",
-          items: ["apple", "banana", "cherry", "date"],
-        });
-      },
-
-      2000
-    );
+    setTimeout(() => {
+      this.setState({
+        disabled: true,
+        text: "Hello World!",
+        items: ["apple", "banana", "cherry", "date"],
+      });
+    }, 2000);
   }
   render() {
     const { text, disabled, items } = this.state;

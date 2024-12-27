@@ -21,6 +21,9 @@ class StateMerge extends React.Component {
     setTimeout(() => {
       this.setState((state) => ({
         ...state,
+        first: state.donemsg,
+        second: state.donemsg,
+        third: state.donemsg,
         fourth: state.donemsg,
       }));
     }, 8000);

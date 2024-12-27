@@ -6,7 +6,7 @@ class PropExample extends React.Component {
   state = {
     text: "My Button",
     disabled: false,
-    items: ["one", "ice cream", " popcorn", "orange"],
+    items: ["one", "icecream", " popcorn", "orange"],
   };
   constructor() {
     super();
